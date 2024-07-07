@@ -9,34 +9,17 @@ const Titlecards = ({title,category}) => {
   const[apidata,setApidata] = useState([])
   const cardsref = useRef();
 
-  // const options = {
-  //   method: 'GET',
-  //   headers: {
-  //     accept: 'application/json',
-  //     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwM2MwNzRiYmU3NDQ1MjNiNTIyNjVmNWJlMTY5Y2EzOCIsIm5iZiI6MTcyMDI5MzMxMC42MDk1MDQsInN1YiI6IjY2ODk5NWNlZmM5NzE4ODRjZDAxMWZkNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.cpFOH0CTip73st0VBMyFDLhTUYTfzvEyvI5h3DMfIYQ'
-  //   }
-  // };
-  
 
 
-// const url = 'https://imdb8.p.rapidapi.com/auto-complete?q=game';
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'x-rapidapi-key': 'a818ea4d5dmshd236ab14cce52d3p16b856jsn972da45a0d83',
-// 		'x-rapidapi-host': 'imdb8.p.rapidapi.com'
-// 	}
-// };
 
-
-const url = 'https://imdb-top-100-movies.p.rapidapi.com/';
-const options = {
-	method: 'GET',
-	headers: {
-		'x-rapidapi-key': '47821c84dfmshd527ce756c1a19dp11b78ajsn493b7b7814db',
-		'x-rapidapi-host': 'imdb-top-100-movies.p.rapidapi.com'
-	}
-};
+  const url = 'https://imdb-top-100-movies.p.rapidapi.com/';
+  const options = {
+    method: 'GET',
+    headers: {
+      'x-rapidapi-key': 'b5a31e7de6mshfa4af5168f5305dp1c6869jsne470fad179df',
+      'x-rapidapi-host': 'imdb-top-100-movies.p.rapidapi.com'
+    }
+  };
 
 
 

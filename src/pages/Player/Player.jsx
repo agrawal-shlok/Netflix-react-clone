@@ -15,7 +15,7 @@ const Player = () => {
   const options = {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': '47821c84dfmshd527ce756c1a19dp11b78ajsn493b7b7814db',
+      'x-rapidapi-key': 'b5a31e7de6mshfa4af5168f5305dp1c6869jsne470fad179df',
       'x-rapidapi-host': 'imdb-top-100-movies.p.rapidapi.com'
     }
   };
